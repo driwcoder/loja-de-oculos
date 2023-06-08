@@ -25,8 +25,31 @@
 
 
 @media screen and (max-width: 768px) {
-  .banner-content img {
-    max-width: 768px;
-    height: auto;
+  .banner-content div h1  {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .banner-content div p  {
+    font-size: 20px;
+  }
+
+  .banner-content div {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-size: 25px;
+    width: 350px;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  .banner-content img{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .banner-content div {
+    display: none;
   }
 }

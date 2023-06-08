@@ -42,3 +42,18 @@
 .social {
   margin-bottom: 100px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .contatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    margin-top: 70px;
+    text-align: center;
+  }
+  
+  
+  }

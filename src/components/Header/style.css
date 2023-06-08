@@ -19,3 +19,20 @@ nav a:last-child {
 header img {
   width: 200px;
 }
+
+@media screen and (max-width: 768px) {
+  
+.header-content {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+}
+@media screen and (max-width: 550px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
