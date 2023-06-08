@@ -1,0 +1,32 @@
+
+.banner-content, .banner {
+  width: 100%;
+}
+.banner-content img{
+  width: 100%;
+}
+
+.banner-content div {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  font-size: 25px;
+  width: 500px;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.banner-content div h1 {
+  font-size: 70px;
+  line-height: 71px;
+  margin: 15px 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .banner-content img {
+    max-width: 768px;
+    height: auto;
+  }
+}

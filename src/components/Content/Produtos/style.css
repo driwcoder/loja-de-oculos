@@ -1,0 +1,57 @@
+.produtos-content h1,
+.produtos-content p {
+  text-align: center;
+}
+
+.produtos-content {
+  padding: 50px 0;
+}
+
+.produtos-content h1 {
+  font-size: 30px;
+}
+.produtos-content p {
+  font-size: 20px;
+  line-height: 45px;
+
+  margin-top: 20px;
+}
+
+.board {
+  width: 800px;
+
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+
+  margin-top: 100px;
+}
+
+.oculos {
+  width: calc(100% / 2 - 100px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: #e4e4e4;
+
+  margin: 10px;
+}
+.oculos h2,
+.oculos p {
+  padding: 20px 0;
+}
+.oculos img {
+  width: calc(50%);
+}
+
+ul li {
+  text-align: center;
+  list-style-position: inside;
+
+  font-size: 20px;
+  line-height: 45px;
+}

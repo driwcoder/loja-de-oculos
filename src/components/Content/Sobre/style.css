@@ -1,0 +1,46 @@
+
+
+.sobre-content{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px 0;
+}
+.sobre-content h1{
+  font-size: 50px;
+}
+.sobre-content p{
+  font-size: 22px;
+  margin: 30px 0;
+}
+
+
+.board-sobre {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-sobre{
+  width: calc((100%/2));
+  border: 1px solid gray;
+  border-collapse: collapse;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.box-sobre h2{
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.box-sobre p{
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+}
+
+.box-sobre img{
+  width: calc(100%);
+}

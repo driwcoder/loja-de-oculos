@@ -1,0 +1,21 @@
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+nav a:last-child {
+  padding: 10px 0 10px 10px;
+  
+}
+header img {
+  width: 200px;
+}
