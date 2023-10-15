@@ -9,8 +9,8 @@ export default function Header() {
         <img src={logo} alt='logotipo'/>
         <nav>
           <a href='#produtos'>PRODUTOS</a>
-          <a href='sobre'>SOBRE</a>
-          <a href='contato'>CONTATO</a>
+          <a href='#sobre'>SOBRE</a>
+          <a href='#contato'>CONTATO</a>
         </nav>
       </div>
     </header>
